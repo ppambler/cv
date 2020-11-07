@@ -5,6 +5,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    object-fit: cover;
   }
 }
 
@@ -93,4 +94,8 @@
       margin-left: auto;
     }
   }
+}
+
+others {
+  padding-bottom: 4px;
 }
