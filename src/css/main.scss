@@ -1,0 +1,96 @@
+.bio {
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.projects {
+  p {
+    color: #666;
+  }
+
+  > ol {
+    margin-top: 0;
+    list-style-position: inside;
+    padding: 0;
+    > li {
+      margin-bottom: 24px;
+      > header {
+        display: flex;
+        justify-content: space-between;
+      }
+      h3 {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+#skills {
+  width: 500px;
+  height: 270px;
+}
+
+.skills {
+  > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    > :first-child {
+      margin-right: 24px;
+    }
+    > ul {
+      color: #666;
+
+      > li {
+        line-height: 1.2;
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
+.openSource {
+  header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    img {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+  ul > li {
+    margin-bottom: 24px;
+  }
+}
+
+.jobs {
+  > ol > li {
+    margin: 12px 0;
+  }
+
+  header {
+    display: flex;
+    color: #666;
+    margin-bottom: 12px;
+
+    > h3 {
+      font-size: 18px;
+      color: #333;
+    }
+    > h4 {
+      margin-left: 1em;
+      font-size: 18px;
+    }
+
+    > span {
+      font-size: 18px;
+      margin-left: auto;
+    }
+  }
+}
