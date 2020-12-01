@@ -1,11 +1,15 @@
-body {
-  margin: 0;
+body
+{
+    margin: 0;
 }
 
-.page2 {
-  page-break-before: always;
-  margin-top: 30;
+.page2
+{
+    margin-top: 30px;
+
+    page-break-before: always;
 }
-#skills {
-  display: none;
+#skills
+{
+    display: none;
 }

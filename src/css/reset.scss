@@ -1,72 +1,101 @@
-@import "./helper.scss";
+@import './helper.scss';
 
-* {
-  box-sizing: border-box;
+*
+{
+    box-sizing: border-box;
 }
-body {
-  margin: 0;
-  padding: 0;
-  font-family: $font-hei;
-  color: #333;
-  background: #eee;
-  margin: 20px 0;
+body
+{
+    font-family: $font-hei;
+
+    margin: 0;
+    margin: 20px 0;
+    padding: 0;
+
+    color: #333;
+    background: #eee;
 }
-article {
-  width: 21cm;
-  min-height: 29.7cm;
-  background: white;
-  margin: 0 auto;
-  padding: 1em;
-  overflow: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+article
+{
+    overflow: auto;
+
+    width: 21cm;
+    min-height: 29.7cm;
+    margin: 0 auto;
+    padding: 1em;
+
+    background: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-h1 {
-  font-size: 25px;
-  margin-top: 0;
+h1
+{
+    font-size: 25px;
+
+    margin-top: 0;
 }
 
 h1,
-h2 {
-  color: #000;
-  font-weight: 500;
+h2
+{
+    font-weight: 500;
+
+    color: #000;
 }
 h3,
 h4,
 h5,
-h6 {
-  margin: 0;
-  font-weight: 500;
+h6
+{
+    font-weight: 500;
+
+    margin: 0;
 }
 ol,
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+ul
+{
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
 }
 
 p,
-li {
-  color: #666;
+li
+{
+    color: #666;
 }
-a {
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 1px solid;
+a
+{
+    padding-bottom: 2px;
+
+    text-decoration: none;
+
+    color: inherit;
+    border-bottom: 1px solid;
 }
-p {
-  margin: 0.3em 0;
+p
+{
+    margin: .3em 0;
 }
-strong {
-  color: #f60;
-  margin: auto 3px;
-  font-weight: 500;
+strong
+{
+    font-weight: 500;
+
+    margin: auto 3px;
+
+    color: #f60;
 }
 
-.icon {
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.15em;
-  fill: currentColor;
-  overflow: hidden;
+.icon
+{
+    overflow: hidden;
+
+    width: 1em;
+    height: 1em;
+
+    vertical-align: -.15em;
+
+    fill: currentColor;
 }
