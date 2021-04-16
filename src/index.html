@@ -49,17 +49,14 @@
               熟悉 <strong>Vue全家桶</strong>的使用，包括
               VueCli、VueRouter、Vuex 等
             </li>
-            <!-- <li>
+            <li>
               熟悉 <strong>React全家桶</strong>的使用，包括
-              create-react-app、ReactRouter、Redux 等
-            </li> -->
+              create-react-app、ReactRouter、Redux、Mobx 等
+            </li>
             <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
             <li>了解 Echarts 图表库的使用</li>
-            <li>
-              了解 <strong>TypeScript</strong> 的使用，我的项目就是用 TS 实现的
-            </li>
+            <li>了解 <strong>TypeScript</strong> 的使用</li>
             <li>了解 <strong>Webpack 的配置和优化</strong></li>
-            <li>具有把所学到的东西及时总结成技术博客的<strong>习惯</strong></li>
           </ul>
         </div>
       </section>
@@ -71,53 +68,106 @@
             <header>
               <h3>Warm UI</h3>
               <span>
-                <a href="https://github.com/ppambler/warm-ui">源码链接</a>
-                <a href="http://ppambler.gitee.io/warm-ui/">项目预览</a>
+                <a href="https://github.com/ppambler/warm-ui">源码</a>
+                <a href="http://ppambler.gitee.io/warm-ui/">预览</a>
+                <a
+                  href="https://ppambler.github.io/xdmala/#%E8%87%AA%E5%88%B6-ui-%E6%A1%86%E6%9E%B6%E7%AE%80%E6%98%93%E7%89%88"
+                  >笔记</a
+                >
               </span>
             </header>
-            <p>一款基于 <strong>Vue 2.5</strong>的简单 UI 组件库。</p>
             <p>
-              主要组件有按钮、布局、标签页、弹出框、手风琴等。这几个 UI
-              组件的制作过程让我对 Vue 和<strong>单元测试</strong>有了新的认识。
+              一款基于
+              <strong>Vue</strong
+              >/<strong>Karma</strong>/<strong>Mocha</strong>/<strong>TravisCI</strong>/<strong
+                >Parcel</strong
+              >
+              技术栈所实现的轻量级 UI 组件库
             </p>
             <p>
-              具体的制作过程以及遇到某些问题的解决过程都记录在本人的
-              <a
-                href="https://ppambler.github.io/xdmala/#%E8%87%AA%E5%88%B6-ui-%E6%A1%86%E6%9E%B6%E7%AE%80%E6%98%93%E7%89%88"
-              >
-                博客
-              </a>
+              该项目实现了 8 个 UI 组件，其中使用 Parcel 进行构建。项目中还使用
+              Karma 做自动化测试，使用 Mocha&Chai 做单元测试，使用 TravisCI
+              做持续集成
+            </p>
+            <p>
+              收获：锻炼了自己关于 Vue
+              相关高级特性的使用，对框架的认识有了一个质的提升
             </p>
           </li>
           <li>
             <header>
-              <h3>旺财记账</h3>
+              <h3>Morney 记账</h3>
               <span>
-                <a href="https://github.com/ppambler/vue-morney">源码链接</a>
-                <a href="http://ppambler.gitee.io/vue-morney">项目预览</a>
+                <a href="https://github.com/ppambler/vue-morney">源码</a>
+                <a href="http://ppambler.gitee.io/vue-morney">预览</a>
+                <a href="https://ppambler.github.io/vue/04/">笔记</a>
               </span>
             </header>
             <p>
-              一个基于 <strong>Vue</strong>/<strong>Vue Router</strong
-              >/<strong>Vuex</strong>/<strong>TypeScript</strong>的移动端单页面应用。
+              一个基于
+              <strong>Typescript</strong
+              >/<strong>Vue</strong>/<strong>Vuex</strong>/<strong
+                >Vue Router</strong
+              >/<strong>SVG Icon</strong>/<strong>SCSS</strong>/<strong
+                >Echars</strong
+              >
+              技术栈所实现的移动端记账应用
             </p>
 
-            <p>从自身需求出发所实现的极简记账应用，特点是快速记账。</p>
-            <p>
-              该项目使用 <strong>TypeScript</strong> 配合。
-              <strong>vue-property-decorator</strong> 装饰器语法实现，采用 SCSS
+            <p>其核心功能包括：账单添加、标签编辑、账单统计等</p>
+            <!-- <p>
+              整个应用完全采用了 <strong>TypeScript</strong> +
+              <strong>vue-property-decorator</strong> 装饰器语法这个组合来实现，采用 SCSS
               编写页面样式，并大量使用了<strong>$变量</strong>与<strong>%占位符</strong>优化代码。
+            </p> -->
+            <p>
+              使用 <strong>LocalStorage</strong> 实现了应用数据的本地存储功能
             </p>
             <p>
+              界面使用 <strong>Figma</strong> 设计，极简风格，采用黑白灰配色
+            </p>
+            <p>
+              收获：熟悉了 TypeScript 的基本用法，<strong>Class</strong> 风格的
+              Vue 组件编写。了解了代码优化的历程是怎样的、组件如何封装、出 Bug
+              了如何调试等
+            </p>
+            <!-- <p>
               期间遇到很多有关 webpack 和 TypeScript
               方面的问题，而这些问题的解决过程都记录在本人的
               <a href="https://ppambler.github.io/vue/04/">博客</a>
+            </p> -->
+          </li>
+          <li>
+            <header>
+              <h3>Epic 图床</h3>
+              <span>
+                <a href="https://github.com/ppambler/epic-react">源码</a>
+                <a href="http://ppambler.gitee.io/epic-react">预览</a>
+                <a href="https://ppambler.github.io/react/05/">笔记</a>
+              </span>
+            </header>
+            <p>
+              一个基于 <strong>React</strong>/<strong>React Router</strong
+              >/<strong>Mobx</strong>/<strong>Hooks API</strong>/<strong
+                >Antd</strong
+              >
+              技术栈所实现的在线图床应用
+            </p>
+            <p>
+              其核心功能包括：登录、注册、图片上传、图片定制、上传历史展示等，其中使用了
+              LeanCloud Serverless 云服务提供后端支撑
+            </p>
+            <p class="page2">
+              收获：学到了如何快速搭建项目结构、React Router 的使用、React
+              中使用 CSS 的几种方案、Mobx 与装饰器的使用、Class 组件与
+              mobx-react 结合的使用、函数组件与 mobx-react 结合的使用、Antd
+              组件库的使用
             </p>
           </li>
         </ol>
       </section>
 
-      <section class="openSource">
+      <!-- <section class="openSource">
         <h2>开源项目</h2>
         <ul>
           <li>
@@ -155,7 +205,7 @@
             <p>封装过程使我对原型链 和 jQuery 有了更深刻的认识。</p>
           </li>
         </ul>
-      </section>
+      </section> -->
 
       <section class="others">
         <h2>其它链接</h2>
