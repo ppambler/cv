@@ -34,30 +34,82 @@
       </section>
 
       <section class="skills">
-        <h2>技能</h2>
+        <h2>技能清单</h2>
         <div class="wrapper">
-          <div id="skills"></div>
-          <ul>
-            <li>
-              熟悉静态页面制作技巧，能够编写<strong>语义化</strong>的页面，能将设计稿还原
-            </li>
-            <li>
-              熟悉<strong>前后端分离</strong>技术，包括
-              AJAX、跨域、前端路由、Cookie、Session 等
-            </li>
-            <li>
-              熟悉 <strong>Vue全家桶</strong>的使用，包括
-              VueCli、VueRouter、Vuex 等
-            </li>
-            <li>
-              熟悉 <strong>React全家桶</strong>的使用，包括
-              create-react-app、ReactRouter、Redux、Mobx 等
-            </li>
-            <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
-            <li>了解 Echarts 图表库的使用</li>
-            <li>了解 <strong>TypeScript</strong> 的使用</li>
-            <li>了解 <strong>Webpack 的配置和优化</strong></li>
-          </ul>
+          <div>
+            <h3>前端基础</h3>
+            <ul>
+              <li>
+                熟悉静态页面制作技巧，能够使用 <strong>HTML5</strong> 和
+                <strong>CSS3</strong> 进行符合 Web
+                标准的语义化开发，具备还原设计稿的能力
+              </li>
+              <li>
+                熟悉 <strong>JavaScript</strong> 语言，掌握
+                <strong>ES6+</strong> 语法，持续关注 ECMAScript 标准
+              </li>
+              <li>
+                熟悉 <strong>AJAX</strong> 相关知识，了解
+                <strong>HTTP</strong> 协议，能熟练运用
+                <strong>Promise</strong> 优化项目中的各种异步逻辑
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>前端模块化</h3>
+            <ul>
+              <li>
+                了解 <strong>CMD</strong> / <strong>AMD</strong> /
+                <strong>UMD</strong> /
+                <strong>ES6 Modules</strong> 等常见的模块化规范
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>前端自动化构建工具</h3>
+            <ul>
+              <li>
+                在项目中使用过 <strong>Webpack</strong> /
+                <strong>Parcel</strong> 等打包工具，熟悉前端工程化构建流程
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>前端 JS 框架</h3>
+            <ul>
+              <li>
+                熟悉 <strong>Vue</strong> / <strong>React</strong>
+                相关技术栈，并了解一部分框架的底层原理
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>前端 CSS 工具</h3>
+            <ul>
+              <li>熟悉 <strong>Sass</strong> 这个 CSS 预处理工具</li>
+              <li>
+                熟悉 <strong>styled-components</strong> 库的使用，在项目中实践过
+                CSS IN JS 的开发模式和思想
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>其它</h3>
+            <ul>
+              <li>
+                熟悉 <strong>LocalStorage</strong> /
+                <strong>SessionStorage</strong> /
+                <strong>Cookie</strong> 等数据存储技术
+              </li>
+              <li>
+                了解前端单元测试、持续集成服务
+                <strong>Travis</strong> 相关知识；能使用
+                <strong>Easy Mock</strong>
+                等工具进行简单的接口数据模拟
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -78,10 +130,9 @@
             </header>
             <p>
               一款基于
-              <strong>Vue</strong
-              >/<strong>Karma</strong>/<strong>Mocha</strong>/<strong>TravisCI</strong>/<strong
-                >Parcel</strong
-              >
+              <strong>Vue</strong> / <strong>Karma</strong> /
+              <strong>Mocha</strong> / <strong>TravisCI</strong> /
+              <strong>Parcel</strong>
               技术栈所实现的轻量级 UI 组件库
             </p>
             <p>
@@ -105,12 +156,10 @@
             </header>
             <p>
               一个基于
-              <strong>Typescript</strong
-              >/<strong>Vue</strong>/<strong>Vuex</strong>/<strong
-                >Vue Router</strong
-              >/<strong>SVG Icon</strong>/<strong>SCSS</strong>/<strong
-                >Echars</strong
-              >
+              <strong>TypeScript</strong> / <strong>Vue</strong> /
+              <strong>Vuex</strong> / <strong>Vue Router</strong> /
+              <strong>SVG Icon</strong> / <strong>SCSS</strong> /
+              <strong>ECharts</strong>
               技术栈所实现的移动端记账应用
             </p>
 
@@ -138,7 +187,7 @@
             </p> -->
           </li>
           <li>
-            <header>
+            <header class="page2">
               <h3>Epic 图床</h3>
               <span>
                 <a href="https://github.com/ppambler/epic-react">源码</a>
@@ -147,17 +196,17 @@
               </span>
             </header>
             <p>
-              一个基于 <strong>React</strong>/<strong>React Router</strong
-              >/<strong>Mobx</strong>/<strong>Hooks API</strong>/<strong
-                >Antd</strong
-              >
+              一个基于 <strong>React</strong> / <strong>React Router</strong> /
+              <strong>Mobx</strong> / <strong>Hooks API</strong> /
+              <strong>Antd</strong>
               技术栈所实现的在线图床应用
             </p>
             <p>
               其核心功能包括：登录、注册、图片上传、图片定制、上传历史展示等，其中使用了
-              LeanCloud Serverless 云服务提供后端支撑
+              <strong>LeanCloud Serverless</strong> 云服务提供后端支撑
             </p>
-            <p class="page2">
+            <!-- class="page2" -->
+            <p>
               收获：学到了如何快速搭建项目结构、React Router 的使用、React
               中使用 CSS 的几种方案、Mobx 与装饰器的使用、Class 组件与
               mobx-react 结合的使用、函数组件与 mobx-react 结合的使用、Antd
@@ -221,7 +270,7 @@
         </ul>
       </section>
     </article>
-    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.8.0/echarts.min.js"></script>
-    <script src="./main.js"></script>
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.8.0/echarts.min.js"></script>
+    <script src="./main.js"></script> -->
   </body>
 </html>

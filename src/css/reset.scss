@@ -6,7 +6,8 @@
 }
 body
 {
-    font-family: $font-hei;
+    // font-family: $font-hei;
+    font-size: 14px;
 
     margin: 0;
     margin: 20px 0;
@@ -48,8 +49,6 @@ h4,
 h5,
 h6
 {
-    font-weight: 500;
-
     margin: 0;
 }
 ol,
