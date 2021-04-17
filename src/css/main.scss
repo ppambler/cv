@@ -1,14 +1,44 @@
 .bio
 {
-    position: relative;
-
-    img
+    text-align: center;
+    p
     {
-        position: absolute;
-        top: 0;
-        right: 0;
+        font-size: 1.2em;
+    }
+    h1,
+    p
+    {
+        margin: 16px 0;
+    }
+}
 
-        object-fit: cover;
+.info,
+.contact,
+.education,
+.others
+{
+    ul
+    {
+        margin: .25em 0;
+        padding-left: 1.25em;
+
+        list-style-type: disc;
+        li
+        {
+            line-height: 1.75;
+
+            display: list-item;
+
+            text-align: -webkit-match-parent;
+        }
+    }
+}
+
+.contact
+{
+    a
+    {
+        border-bottom: none;
     }
 }
 
@@ -133,6 +163,6 @@
 {
     li
     {
-        margin-bottom: .5em;
+        margin-bottom: .25em;
     }
 }
