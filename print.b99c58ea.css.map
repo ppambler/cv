@@ -1,0 +1,1 @@
+{"version":3,"sources":["css\\print.scss"],"names":[],"mappings":"AAAA,KAGI,mBAGJ,OAEI,eAAA,CAEA,yBAEJ,QAEI","file":"print.b99c58ea.css","sourceRoot":"..\\src","sourcesContent":["body\n{\n    margin: 0;\n    margin-top: -1.75em;\n}\n\n.page2\n{\n    margin-top: 30px;\n\n    page-break-before: always;\n}\n#skills\n{\n    display: none;\n}\n"]}
